@@ -12,7 +12,7 @@ class Program
     static int RandNums()
     {
         Random rand = new Random();
-        int randNum = (rand.Next(0, 100) % 100) - ((rand.Next(0, 10) % 10) * 5);
+        int randNum = rand.Next(-100, 100);
         return randNum;
     }
 
