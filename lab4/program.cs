@@ -131,7 +131,7 @@ namespace Task
 
         static void DoBonusTask()
         {
-            static void Task16()
+            static void Task15()
             {
                 Console.WriteLine("Введіть перший рядок: ");
                 string line1 = Console.ReadLine();
@@ -160,10 +160,7 @@ namespace Task
                         index1 = Ignore_Spaces(s1, index1);
                         index2 = Ignore_Spaces(s2, index2);
 
-                        if (index1 < s1.Length && index2 < s2.Length && s1[index1] != s2[index2])
-                        {
-                            return false;
-                        }
+                        if (index1 < s1.Length && index2 < s2.Length && s1[index1] != s2[index2]) {  return false; }
 
                         index1++;
                         index2++;
@@ -183,7 +180,7 @@ namespace Task
                     return index;
                 }
             }
-            static void Task17()
+            static void Task16()
             {
                 string firstSen = Console.ReadLine().ToLower();
                 string secondSen = Console.ReadLine().ToLower();
@@ -209,7 +206,7 @@ namespace Task
                     Console.WriteLine("NO");
                 }
             }
-            static void Task18()
+            static void Task17()
             {
                 string line = Console.ReadLine();
                 int counter = 0;
@@ -224,30 +221,26 @@ namespace Task
                     {
                         counter--;
                     }
-                    if (counter < 0)
-                    {
-                        break;
-                    }
+                    if (counter < 0) {  break; }
+                    
                 }
 
-                if (counter == 0)
-                {
-                    Console.WriteLine("YES");
-                }
-                else
-                {
-                    Console.WriteLine("NO");
-                }
+                (counter == 0) ? Console.WriteLine("YES") : Console.WriteLine("NO");
 
             }
 
             Console.WriteLine("Оберіть номер задачі:");
-            Console.WriteLine("Можливі варіанти:\n16\n17\n18\n19\n20");
+            Console.WriteLine("Можливі варіанти:\n15\n16\n17");
 
             string choice = Console.ReadLine();
 
             switch (choice)
             {
+                case "15":
+                    Console.WriteLine("Виконуємо задачу 15");
+                    Task15();
+                    break;
+
                 case "16":
                     Console.WriteLine("Виконуємо задачу 16");
                     Task16();
@@ -256,21 +249,6 @@ namespace Task
                 case "17":
                     Console.WriteLine("Виконуємо задачу 17");
                     Task17();
-                    break;
-
-                case "18":
-                    Console.WriteLine("Виконуємо задачу 18");
-                    Task18();
-                    break;
-
-                case "19":
-                    Console.WriteLine("Виконуємо задачу 19");
-                    Task19();
-                    break;
-
-                case "20":
-                    Console.WriteLine("Виконую задачу 20");
-                    Task20();
                     break;
 
                 default:
