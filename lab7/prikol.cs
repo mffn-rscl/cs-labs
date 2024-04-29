@@ -42,14 +42,13 @@ static void Input(int[,] arr)
     for (int i = 0; i < rows; i++)
     {
         string input = Console.ReadLine();
-        string[] elements = input.Split(',');
+        string[] elements = input.Split(' ');
         for (int j = 0; j < cols; j++) 
         {
             arr[i, j] = int.Parse(elements[j]);
         }
     }
 }
-
     static void Swap(ref int a, ref int b)
     {
         int temp = a;
