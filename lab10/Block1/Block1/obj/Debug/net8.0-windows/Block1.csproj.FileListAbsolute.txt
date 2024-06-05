@@ -1,0 +1,17 @@
+G:\program files\vs\lab6\Block1\Block1\bin\Debug\net8.0-windows\Block1.exe
+G:\program files\vs\lab6\Block1\Block1\bin\Debug\net8.0-windows\Block1.deps.json
+G:\program files\vs\lab6\Block1\Block1\bin\Debug\net8.0-windows\Block1.runtimeconfig.json
+G:\program files\vs\lab6\Block1\Block1\bin\Debug\net8.0-windows\Block1.dll
+G:\program files\vs\lab6\Block1\Block1\bin\Debug\net8.0-windows\Block1.pdb
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.Form1.resources
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.csproj.GenerateResource.cache
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.GeneratedMSBuildEditorConfig.editorconfig
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.AssemblyInfoInputs.cache
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.AssemblyInfo.cs
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.csproj.CoreCompileInputs.cache
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.dll
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\refint\Block1.dll
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.pdb
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\Block1.genruntimeconfig.cache
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\ref\Block1.dll
+G:\program files\vs\lab6\Block1\Block1\obj\Debug\net8.0-windows\block4.Form1.resources

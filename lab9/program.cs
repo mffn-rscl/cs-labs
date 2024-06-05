@@ -2,6 +2,39 @@ using System;
 
 public class Program
 {
+        public struct MyFrac
+    {
+        public long nom, denom;
+
+        public MyFrac(long nom_, long denom_)
+        {
+            if (denom_ < 0)
+            {
+                nom_ = -nom_;
+                denom_ = -denom_;
+            }
+            long gcd = GCD(Math.Abs(nom_), Math.Abs(denom_));
+            nom = nom_ / gcd;
+            denom = denom_ / gcd;
+        }
+
+        public override string ToString()
+        {
+            return $"{nom}/{denom}";
+        }
+
+        private static long GCD(long a, long b)
+        {
+            while (b != 0)
+            {
+                long temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+    }
+
     public static string ToStringWithIntPart(MyFrac f)
     {
         long intPart = f.nom / f.denom;
@@ -9,6 +42,7 @@ public class Program
         string sign = intPart < 0 || (intPart == 0 && f.nom < 0) ? "-" : ""; 
         return $"{sign}({intPart}+{fracPart})";
     }
+    
 
     public static double DoubleValue(MyFrac f)
     {
@@ -79,35 +113,3 @@ public class Program
 
 }
 
-public struct MyFrac
-{
-    public long nom, denom;
-
-    public MyFrac(long nom_, long denom_)
-    {
-        if (denom_ < 0)
-        {
-            nom_ = -nom_;
-            denom_ = -denom_;
-        }
-        long gcd = GCD(Math.Abs(nom_), Math.Abs(denom_));
-        nom = nom_ / gcd;
-        denom = denom_ / gcd;
-    }
-
-    public override string ToString()
-    {
-        return $"{nom}/{denom}";
-    }
-
-    private static long GCD(long a, long b)
-    {
-        while (b != 0)
-        {
-            long temp = b;
-            b = a % b;
-            a = temp;
-        }
-        return a;
-    }
-}

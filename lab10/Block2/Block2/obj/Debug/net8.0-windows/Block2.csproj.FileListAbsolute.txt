@@ -1,0 +1,16 @@
+G:\program files\vs\lab6\Block2\Block2\bin\Debug\net8.0-windows\Block2.exe
+G:\program files\vs\lab6\Block2\Block2\bin\Debug\net8.0-windows\Block2.deps.json
+G:\program files\vs\lab6\Block2\Block2\bin\Debug\net8.0-windows\Block2.runtimeconfig.json
+G:\program files\vs\lab6\Block2\Block2\bin\Debug\net8.0-windows\Block2.dll
+G:\program files\vs\lab6\Block2\Block2\bin\Debug\net8.0-windows\Block2.pdb
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.Form1.resources
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.csproj.GenerateResource.cache
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.GeneratedMSBuildEditorConfig.editorconfig
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.AssemblyInfoInputs.cache
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.AssemblyInfo.cs
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.csproj.CoreCompileInputs.cache
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.dll
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\refint\Block2.dll
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.pdb
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\Block2.genruntimeconfig.cache
+G:\program files\vs\lab6\Block2\Block2\obj\Debug\net8.0-windows\ref\Block2.dll
